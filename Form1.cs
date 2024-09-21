@@ -145,8 +145,8 @@ namespace StnwSampleCS04
         private void Button1_Click(object sender, EventArgs e)
         {
             clsStnwClass tsi = new clsStnwClass();
-            string preslAccountCode = "DEMO1";  //  "FRUZ"; // "DEMO1";  // your account code
-            string preslUserCode = "0000"; // "5E68"; // "0000"; // yout user code
+            string preslAccountCode = "DEMO1";    // your account code
+            string preslUserCode = "0000";  // your user code
 
             tsi.preslAccountCode = preslAccountCode;
             tsi.preslUserCode = preslUserCode;
